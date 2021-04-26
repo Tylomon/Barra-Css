@@ -22,7 +22,8 @@ clase barra, correspondiente al menu desplegable
 }
 /*Lista*/
 .barra li{
-    transition: .4s all;        
+    transition: .4s all;  
+    visibility: hidden;      
 }
 /*enlaces*/
 .barra a{
@@ -77,6 +78,7 @@ font-size: 25px;
 }
 
 .barra:hover li{
+    visibility: visible;  
 border-top: 1px solid black;
     width: 100%;
 
